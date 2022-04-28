@@ -3,6 +3,14 @@ import Layout from "../components/Layout/Layout"
 import Image from "../components/Images/Images"
 const Autocad = () => {
   return <Layout>
+    <div class="robo">
+    <div class="robo_img">
+    <Image
+            className="d-block mx-lg-auto img-fluid"
+            filename="autoc.jpg"
+            alt="1"
+          />
+          </div>
    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,6 +87,7 @@ On a daily basis we talk to companies expert in these domains to fine tune our c
 <br></br>
     <br></br>
   </main>
+  </div>
   </Layout>
 }
 export default Autocad

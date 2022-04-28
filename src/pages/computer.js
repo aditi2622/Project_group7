@@ -3,6 +3,14 @@ import Layout from "../components/Layout/Layout"
 import Image from "../components/Images/Images"
 const computer = () => {
   return <Layout>
+    <div class="robo">
+    <div class="robo_img">
+    <Image
+            className="d-block mx-lg-auto img-fluid"
+            filename="compc.png"
+            alt="1"
+          />
+          </div>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -94,6 +102,7 @@ Operating systems
 Project management
 You'll work on your own laptop in a networked environment that provides round-the-clock access to all course materials from any location through Sheridan's Learning Management System.</p>
   </main>
+  </div>
   </Layout>
 }
 export default computer

@@ -3,6 +3,14 @@ import Layout from "../components/Layout/Layout"
 import Image from "../components/Images/Images"
 const Autocad = () => {
   return <Layout>
+    <div class="robo">
+    <div class="robo_img">
+    <Image
+            className="d-block mx-lg-auto img-fluid"
+            filename="roboc.png"
+            alt="1"
+          />
+          </div>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -49,6 +57,7 @@ const Autocad = () => {
     </button>
   </div>
   <main class="px-3 text-center bg-muted">
+    
     <br></br>
     <br></br>
     <h1>Course Overview</h1>
@@ -67,7 +76,9 @@ const Autocad = () => {
     <p class="lead">Covers practical analog and digital electronics for robotics. Students will: prototype, test, and debug various analog and digital circuits; interface a microcontroller to external circuits; learn to design and prototype circuit boards; interpret data recorded from physical circuits. An exploration of circuits and embedded systems that supports integrated robotic design.</p>
     <br></br>
     <br></br>
+    
   </main>
+  </div>
   </Layout>
 }
 export default Autocad

@@ -4,9 +4,11 @@ import Image from "../components/images/images"
 
 const About = () => {
   return (
+    <div class="ab">
     <Layout>
+      
       <hr class="featurette-divider " />
-
+      <div class="det">
       <div class="row featurette bg-primary bg-opacity-25">
         <div class="col-md-7">
           <br></br>
@@ -46,13 +48,13 @@ const About = () => {
           />
         </div>
       </div>
-
+      </div>
       <hr class="featurette-divider" />
-
+      <div class="det">
       <div class="row featurette bg-info bg-opacity-25">
         <div class="col-md-7 order-md-2">
           <br></br>
-          <h1 class="featurette-heading text-center ">VISSION MISSION AND VALUES</h1>
+          <h1 class="featurette-heading text-center ">VISION MISSION AND VALUES</h1>
           <br></br>
           <p class="lead text-center ">
             APP as an institution is dedicated to higher education, one that
@@ -88,8 +90,9 @@ const About = () => {
           />
         </div>
       </div>
+      </div>
       <hr class="featurette-divider" />
-
+      <div class="det">
       <div class="row featurette bg-primary bg-opacity-25">
         <div class="col-md-7">
           <br></br>
@@ -130,8 +133,9 @@ const About = () => {
           />
         </div>
       </div>
+      </div>
       <hr class="featurette-divider" />
-
+      <div class="det">
       <div class="row featurette bg-info bg-opacity-25">
         <div class="col-md-7 order-md-2">
           <br></br>
@@ -168,7 +172,9 @@ Several areas across campus, including women's locker rooms, are equipped with p
           />
         </div>
       </div>
+      </div>
     </Layout>
+    </div>
   )
 }
 export default About

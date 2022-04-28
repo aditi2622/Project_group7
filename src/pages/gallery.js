@@ -4,12 +4,15 @@ import Image from "../components/Images/Images"
 const Gallery = () => {
   return (
     <Layout>
-      <div class="album py-5 bg-light">
+      <div class="gallery">
+    <h1 class="display-5 fw-bold lh-3 mb-3">Get the idea of what the institute looks like</h1>
+    </div>
+      <div class="alb">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="gal1.jpeg"
@@ -19,7 +22,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="gal2.jpeg"
@@ -29,7 +32,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="gal3.jpeg"
@@ -40,7 +43,7 @@ const Gallery = () => {
         </div>
 
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="4.jpeg"
@@ -50,7 +53,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="5.jpeg"
@@ -59,7 +62,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="6.jpeg"
@@ -70,7 +73,7 @@ const Gallery = () => {
         </div>
 
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="7.jpeg"
@@ -80,7 +83,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="8.jpeg"
@@ -90,7 +93,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="9.jpeg"
@@ -100,7 +103,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="10.jpeg"
@@ -110,7 +113,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="11.jpeg"
@@ -120,7 +123,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="12.jpeg"
@@ -130,7 +133,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="13.jpeg"
@@ -140,7 +143,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="14.jpeg"
@@ -150,7 +153,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="15.jpeg"
@@ -160,7 +163,7 @@ const Gallery = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="car shadow-sm">
           <Image
             className="d-block mx-lg-auto img-fluid h"
             filename="16.jpeg"
@@ -168,10 +171,11 @@ const Gallery = () => {
           />
             
           </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  
     </Layout>
   )
 }

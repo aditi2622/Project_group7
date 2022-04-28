@@ -1,20 +1,21 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
+import Image from "../components/images/images"
 const FAQs = () => {
   return (
+    <div class="back">
     <Layout>
-      <div class="bg-success bg-opacity-75">
-      <br></br>
-<br></br>
+      
+     <div class="image">
+      <Image
+        className="d-block mx-lg-auto img-fluid"
+        filename="faqss.jpg"
+        alt="1" />
+    
+      
 
-<h1 class="text-center text-light">Let Us Answer Your Questions</h1>
-<br></br>
+</div>
 
-<p class="lead text-center text-light"><h5>Have questions? Look no further. Our Frequently Asked Questions (FAQ) make it easy for you to find answers to your most pressing inquiries into the School of Education. If you can't find your answer here, please feel free to contact us or use our site search to find the information you need.</h5></p>
-
-      <br></br>
-      <br></br>
-      </div>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -217,7 +218,9 @@ const FAQs = () => {
         </div>
       </div>
       </div>
+     
     </Layout>
+    </div>
   )
 }
 export default FAQs
